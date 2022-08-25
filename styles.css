@@ -29,3 +29,21 @@
 html {
     font-size: 62.5%;
 }
+
+body {
+    background-color: var(--cream);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.product-card {
+    background-color: var(--white);
+    width: 460px;
+    height: 800px;
+}
+
+.product-card__image img{
+    max-width: 100%;
+    max-height: 100%;
+}
