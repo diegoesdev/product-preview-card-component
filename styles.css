@@ -1,0 +1,31 @@
+:root {
+    /* Colors */
+    --dark-cyan: hsl(158, 36%, 37%);
+    --cream: hsl(30, 38%, 92%);
+    --very-dark-blue: hsl(212, 21%, 14%);
+    --dark-grayish-blue: hsl(228, 12%, 48%);
+    --white: hsl(0, 0%, 100%);
+    
+    /* Typography */
+    /* Font size */
+    --body: 1.4rem;
+    /* Font family */
+    --Montserrat: 'Montserrat', sans-serif;
+    --Faunces: 'Fraunces', serif;
+    /* Font weight */
+    --medium: 500;
+    --bold: 700;
+
+}
+
+/* Restablish default values */
+* {
+	margin: 0;
+	padding: 0;
+    box-sizing: border-box;
+}
+
+/* Applying rem as default font size */
+html {
+    font-size: 62.5%;
+}
