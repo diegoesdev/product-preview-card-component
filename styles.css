@@ -8,14 +8,13 @@
     
     /* Typography */
     /* Font size */
-    --body: 1.4rem;
+    --body: 1.7rem;
     /* Font family */
     --Montserrat: 'Montserrat', sans-serif;
     --Faunces: 'Fraunces', serif;
     /* Font weight */
     --medium: 500;
     --bold: 700;
-
 }
 
 /* Restablish default values */
@@ -31,6 +30,7 @@ html {
 }
 
 body {
+    height: 850px;
     background-color: var(--cream);
     display: flex;
     align-items: center;
@@ -41,9 +41,92 @@ body {
     background-color: var(--white);
     width: 460px;
     height: 800px;
+    display: grid;
+    border-radius: 10px;
 }
 
 .product-card__image img{
     max-width: 100%;
     max-height: 100%;
+    border-radius: 10px 10px 0 0;
+}
+
+.product-card__description {
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.product-card__description--category {
+    font-family: var(--Montserrat);
+    font-size: var(--body);
+    font-weight: var(--medium);
+    letter-spacing: .5rem;
+    color: var(--dark-grayish-blue);
+}
+
+.product-card__description--name {
+    font-family: var(--Faunces);
+    font-size: 4.5rem;
+    font-weight: var(--bold);
+
+}
+
+.product-card__description--info {
+    font-family: var(--Montserrat);
+    font-size: var(--body);
+    font-weight: var(--medium);
+    letter-spacing: .1rem;
+    line-height: 2.5rem;
+    color: var(--dark-grayish-blue);
+}
+
+.product-card__description--price {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.product-card__description--price span:nth-child(odd) {
+    font-family: var(--Faunces);
+    font-size: 4.5rem;
+    font-weight: var(--medium);
+    color: var(--dark-cyan);
+}
+
+.product-card__description--price span:nth-child(even) {
+    font-family: var(--Montserrat);
+    font-size: var(--body);
+    font-weight: var(--medium);
+    color: var(--dark-grayish-blue);
+    text-decoration: line-through;
+}
+
+.product-card__description--button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    width: 400px;
+    height: 70px;
+    background-color: var(--dark-cyan);
+    border-style: none;
+    border-radius: 10px;
+}
+
+.product-card__description--button img {
+    width: 20px;
+    height: 20px;
+}
+
+.product-card__description--button p {
+    font-family: var(--Montserrat);
+    font-size: var(--body);
+    font-weight: var(--bold);
+    color: var(--white);
+}
+
+.product-card__description--button:hover {
+    cursor: pointer;
 }
