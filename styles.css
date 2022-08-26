@@ -46,8 +46,9 @@ body {
 }
 
 .product-card__image img{
+    /* Making a image responsive with the next two lines */
     max-width: 100%;
-    max-height: 100%;
+    height: auto;
     border-radius: 10px 10px 0 0;
 }
 
