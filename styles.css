@@ -8,7 +8,7 @@
     
     /* Typography */
     /* Font size */
-    --body: 1.7rem;
+    --body: 1.4rem;
     /* Font family */
     --Montserrat: 'Montserrat', sans-serif;
     --Faunces: 'Fraunces', serif;
@@ -30,7 +30,7 @@ html {
 }
 
 body {
-    height: 850px;
+    height: 900px;
     background-color: var(--cream);
     display: flex;
     align-items: center;
@@ -39,7 +39,7 @@ body {
 
 .product-card {
     background-color: var(--white);
-    width: 460px;
+    width: 350px;
     height: 800px;
     display: grid;
     border-radius: 10px;
@@ -74,7 +74,7 @@ body {
 
 .product-card__description--name {
     font-family: var(--Faunces);
-    font-size: 4.5rem;
+    font-size: 3.5rem;
     font-weight: var(--bold);
 
 }
@@ -96,7 +96,7 @@ body {
 
 .product-card__description--price span:nth-child(odd) {
     font-family: var(--Faunces);
-    font-size: 4.5rem;
+    font-size: 3.5rem;
     font-weight: var(--medium);
     color: var(--dark-cyan);
 }
@@ -114,7 +114,7 @@ body {
     justify-content: center;
     align-items: center;
     gap: 10px;
-    width: 400px;
+    width: 300px;
     height: 70px;
     background-color: var(--dark-cyan);
     border-style: none;
